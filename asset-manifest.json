@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/solana-streamflow/static/css/main.260101f4.css",
+    "main.js": "/solana-streamflow/static/js/main.51fc94ef.js",
+    "static/js/137.8aa18b99.chunk.js": "/solana-streamflow/static/js/137.8aa18b99.chunk.js",
+    "static/js/853.5798ae39.chunk.js": "/solana-streamflow/static/js/853.5798ae39.chunk.js",
+    "index.html": "/solana-streamflow/index.html",
+    "main.260101f4.css.map": "/solana-streamflow/static/css/main.260101f4.css.map",
+    "main.51fc94ef.js.map": "/solana-streamflow/static/js/main.51fc94ef.js.map",
+    "137.8aa18b99.chunk.js.map": "/solana-streamflow/static/js/137.8aa18b99.chunk.js.map",
+    "853.5798ae39.chunk.js.map": "/solana-streamflow/static/js/853.5798ae39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.260101f4.css",
+    "static/js/main.51fc94ef.js"
+  ]
+}
