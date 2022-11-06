@@ -4,36 +4,12 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
-import TextField from '@mui/material/TextField';
 
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import { ConnectionProvider, WalletProvider, useAnchorWallet, useWallet } from '@solana/wallet-adapter-react';
+import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { WalletModalProvider, WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import { PhantomWalletAdapter, SolletExtensionWalletAdapter } from '@solana/wallet-adapter-wallets';
-import { PublicKey, Connection, clusterApiUrl, GetProgramAccountsFilter} from "@solana/web3.js";
-import { TOKEN_PROGRAM_ID } from "@solana/spl-token";
-import {
-  StreamClient,
-  Stream,
-  CreateParams,
-  CreateMultiParams,
-  WithdrawParams,
-  TransferParams,
-  TopupParams,
-  CancelParams,
-  GetAllParams,
-  StreamDirection,
-  StreamType,
-  Cluster,
-  TxResponse,
-  CreateResponse,
-  BN,
-  getBN,
-  getNumberFromBN,
-} from "@streamflow/stream";
+import { clusterApiUrl} from "@solana/web3.js";
 
 import ListStreams from './components/ListStreams';
 import CreateStream from './components/CreateStream';
